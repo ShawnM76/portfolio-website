@@ -14,21 +14,21 @@ $(document).ready(function() {
       //   statusElm.append('<div>Email is valid</div>');
     } else {
       event.preventDefault();
-      statusElm.append('<div>Email is incorrect</div>');
+      statusElm.append('<div>Email is incorrect!</div>');
     }
 
     if (name.length > 2) {
       //   statusElm.append('<div>name is valid</div>');
     } else {
       event.preventDefault();
-      statusElm.append('<div>name is not valid</div>');
+      statusElm.append('<div>Name is not valid!</div>');
     }
 
     if (message.length >= 10) {
       //   statusElm.append('<div>Message is valid</div>');
     } else {
       event.preventDefault();
-      statusElm.append('<div>Message is not valid</div>');
+      statusElm.append('<div>Message is not valid!</div>');
     }
   });
 });
