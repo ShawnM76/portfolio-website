@@ -1730,6 +1730,11 @@ body.is-preload #header .content .inner {
   }
 }
 
+.each-project {
+  padding-top: 2px;
+  border-top: 3px, whitesmoke;
+}
+
 /* Footer */
 
 #footer {
